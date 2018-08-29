@@ -1,0 +1,388 @@
+/* Reset by Meyer */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------------- */
+/* ---- Fin del reset ------- */
+/* -------------------------- */
+
+
+/* Declaraciones HTML */
+
+header {
+	height: 370px;
+	width: 100%;
+	background-image: url("../img/keeper_head.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body {
+    font-family: Verdana;
+	background-color: #8FD2AC;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+   font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+   font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+     font-size: 30px;
+}
+
+h3 {
+   font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+     font-size: large;
+}
+
+h4 {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+label {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+
+}
+
+table {
+    border-collapse: separate;
+}
+th, td {
+    padding-right: 35px;
+    text-align: left;
+}
+th {
+    font-weight: bold;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+input {
+    margin-bottom: 10px;
+    padding: 3px;
+    background-color: azure;
+    font-size: 14px;
+}
+
+textare {
+    resize: none;
+    columns: 10;
+    grid-row: 10;
+}
+
+iframe {
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+/* Declaraciones Clases */
+
+.logo img {
+	position: relative;
+    height: 100px;
+    width: 100px;
+	float: left;
+	top: 5px;
+	left: 20px;
+}
+
+.title {
+	position: relative;
+    text-align: left;
+    color: darkgreen;
+	left: 50px;
+	top: 25px;
+}
+
+.page {
+	background-color: green;
+	color: white;
+	font-size: large;
+    position: absolute;
+    padding: 10px;
+    top:290px;
+    left: 40px;
+}
+.page:hover {
+    text-transform: uppercase;
+}
+.menu {
+	float: left;
+	align-items: center;
+    position: absolute;
+    top: 337px;
+    left: 0px;
+}
+.menu li {
+	float: left;
+	border: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(../img/pasto.jpg);
+	background-size: cover;
+}
+li a {
+    color: white;
+	text-decoration-line: none;
+}
+.current {
+    color: greenyellow;
+}
+.disable {
+    color: green;
+}
+
+.dates {
+	width: 800px;
+	position: relative;
+	top: 25px;
+    left: 35px;
+	padding: 5px;
+    text-align: left;
+    }
+
+.about {
+	width: 800px;
+	position: relative;
+	top: 25px;
+    left: 35px;
+	padding: 5px;
+    text-align: left;
+}
+
+.registration {
+	width: 850px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-sizing: border-box;
+	position: relative;
+	top: 25px;
+    left: 40px;
+	padding: 5px;
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.regheader {
+    text-align: center;
+    line-height: 2;
+}
+
+.contact {
+	width: 800px;
+	position: relative;
+	top: 25px;
+    left: 35px;
+	padding: 5px;
+    text-align: left;
+}
+
+.gameinfo {
+    width: 800px;
+	position: relative;
+	top: 25px;
+    left: 35px;
+	padding: 5px;
+    text-align: left;
+}
+
+.rulesandpol {
+	width: 800px;
+	position: relative;
+	top: 25px;
+    left: 35px;
+	padding: 5px;
+    text-align: left;
+}
+.rulesheader {
+    color: black;
+    text-align: center;
+    line-height: 3;
+}
+.rulesbody {
+    color: black;
+    text-align: left;
+}
+.rulesbody li {
+    padding-bottom: 15px;
+}
+.st_disc {
+    list-style-type: disc;
+}
+.st_circle {
+    list-style-type: circle;
+}
+.st_square {
+    list-style-type: square;
+}
+.st_number {
+    list-style-type: decimal;
+}
+.st_number .st_letter {
+    list-style-type: lower-latin;
+}
+.st_letter_reduce li {
+    list-style-type: lower-latin;
+    padding-bottom: 0px;
+}
+.st_number_reduce li {
+    list-style-type: decimal;
+    padding-bottom: 0px;
+}
+.st_bold {
+    font-weight: bold;
+}
+
+.tb_border {
+    border: solid;
+}
+
+.note {
+    font-style: italic;
+	text-decoration-line: underline;
+    
+}
+
+.gametitle {
+    text-align: center;
+}
+
+.underline {
+	text-decoration-line: underline;
+}
+
+.gamefoot td {
+  padding-right: 90px;
+}
+
+.input30 {
+    width: 30%;
+}
+.input50 {
+    width: 50%;
+}
+.input80 {
+    width: 80%;
+}
+
+.button {
+    width: 100px;
+    padding: 5px;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: grey;
+}
+
+.viewer {
+	width: 600px;
+	position: relative;
+	top: 25px;
+    left: 35px;
+	padding: 5px;
+}
+.viewerhead {
+    text-align: center;
+}
+.viewerbody {
+    width: 600px;
+    background-color: aquamarine;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.viewerbody th {
+    text-align: left;
+    border: 1px solid grey;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    padding-left: 20px;
+}
+.viewerbody td {
+    text-align: left;
+    border: 1px solid grey;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    padding-left: 20px;
+}
+
+.selectedschool {
+    padding: 0px;
+}
+.schools td {
+    font-size: 13px;
+    padding-right: 100px;
+}
+
+.tablemaps td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* Declaraciones ID */
